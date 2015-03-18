@@ -13,7 +13,9 @@ namespace Devkoes.Core.Extensions
             int res = 0;
 
             foreach (var item in source)
+            {
                 res++;
+            }
 
             return res;
         }
